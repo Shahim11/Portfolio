@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+/* global */
+.section-padding {
+  padding: 5rem 0;
+}
+.sub-heading {
+  color: #686de0;
+}
+.heading-title {
+  font-size: 2.25rem;
+}
+
+/* header */
+.navbar-bg {
+  background: linear-gradient(#06beb6, #48b1bf);
+}
+.navbar .nav-item .nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  color: white;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #0984e3;
+}
+.banner-section {
+  background-image: url("../img/banner.jpg");
+  height: 98vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner-title {
+  padding-top: 6rem;
+  color: #686de0;
+  font-size: 5rem;
+}
+.banner-details h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+}
+.banner-details p {
+  font-size: 1.2rem;
+  padding-bottom: 3rem !important;
+}
+.banner-details button {
+  font-size: 1.5rem;
+}
+.banner-img img {
+  padding-top: 10rem;
+}
+
+/* about */
+.about {
+  background-color: #f9f9fc;
+}
+.about-title {
+  font-size: 2.5rem;
+}
+.about-img img {
+  width: 34.75rem;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.about .font-color span{
+  color: #f52225;
+}
+.social-icons i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #9375ff;
+  cursor: pointer;
+  padding-top: 0.75rem;
+}
+.personal-info-details h3 {
+  color: gray;
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+.personal-info-details span {
+  color: black;
+}
+
+/* education */
+.education {
+  background-image: url(../img/education-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.education tr td {
+  font-size: 1.3rem; 
+}
+
+/* skills */
+.skills {
+  background-color: #ade4e4;
+}
+.programming-skills {
+  padding: 0 5rem;
+}
+.software-skills {
+  padding: 0 5rem;
+}
+.progress-bar-part h4 {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+}
+.progress-bar-part .skills {
+  padding-bottom: 2rem;
+}
+
+/* project */
+.project {
+  background-color: #f8f9fa;
+}
+.project .card {
+  border: none;
+  width: 25rem;
+}
+.project .card .card-footer{
+  border: none;
+  background-color: #ffffff;
+  padding-bottom: 1rem;  
+}
+
+/* photography */
+.photography {
+  background-color: #e4e4e4;
+}
+
+/* quote */
+.quote{
+  background-color: #e1f0ff;
+}
+.quote .icon i {
+  font-size: 1.5rem;
+  color: #625d5a;
+}
+
+/* contact */
+.contact .card {
+  border: none;
+  width: 23rem !important;
+  margin-bottom: 2.6rem;
+}
+.contact .card .card-body {
+  padding: 1.5rem 2rem;
+  border-radius: 3rem;
+}
+.contact .card .icon i {
+  font-size: 1.5rem;
+  color: #ff7675;
+}
+.contact .card .details h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.contact .star-sign span{
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #E20613;
+} 
+form input {
+  border: 1px solid gray;
+  border-radius: 10px !important;
+  height: 3rem;
+}
+form textarea {
+  border: 1px solid gray;
+  border-radius: 10px !important;
+}
+
+/* media queries */
+@media (max-width: 576px){
+  .banner-title {
+    margin-top: 3rem;
+  }
+  .banner-img img {
+    margin-top: -9rem;   
+  }
+  .education {
+    font-size: 1rem !important;
+  }
+  .education tr td {
+    font-size: 1rem !important;
+  }
+  .software-skills {
+    padding-top: 2rem;
+  }
+  .project .card {
+    width: 25.8rem;
+  } 
+  .contact .card {
+    width: 25.8rem !important;
+  }
+  form input {
+    width: 25.8rem !important;
+  }
+  form textarea {
+    width: 25.8rem !important;
+  }
+}
+
+/* footer */
+.footer {
+  background-color: rgba(0, 0, 0, 0.774);
+}

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body id="home">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light navbar-bg py-3 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" class="img-fluid" alt="Logo" width="120px" height="40px"/>
+          </a>
+          <button
+            class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>             
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#photography">Photography</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-sm-12">
+              <div class="banner-details">
+                <h2 class="banner-title pb-4 ">Hello,</h2>
+                <h3>I'm Shahim </h3>
+                <p class="pb-3">Web Applicatoins Developer</p>
+                <button class="btn btn-primary">Download CV</button>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="banner-img p-5 ">
+                <img src="./img/banner-image.png" class="img-fluid " alt="banner-image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- about me -->
+      <section id="about" class="about section-padding">
+        <div class="container">
+          <h2 class="about-title text-center pb-5">About <span class="sub-heading">Me</span></h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-img">
+                <img src="./img/profile.jpg" class=" img-fluid" alt="profile-image">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h2 class="pt-3 pb-2">Md.Shahim Uddin Saba</h2>
+              <div class="font-color">
+                <p>A <span >Photographer</span>, <span >Designer</span>, <span>Developer</span> based in <span>Bangladesh</span></p>
+              </div>
+              <p class="text-muted pt-1">Currently, I am a senior student in the Computer Science and Engineering department of Independent 
+                University Bangladesh. I love the internet, technology, and traveling to beautiful places. </p> 
+              <p class="text-muted pt-1">I design and develop services for customers specializing creating stylish, 
+                modern websites, web services and online stores. My passion is to design digital user experiences 
+                through meaningful interactions. Check out my Portfolio
+              </p>
+              <div class="social-icons">
+                <a target="_blank" href="https://www.facebook.com/ShahimUddin.Saba"><span><i class="fab fa-facebook"></i></span></a>
+                <a target="_blank" href="#"><span><i class="fab fa-twitter"></i></span></a>
+                <a target="_blank" href="https://www.instagram.com/shahim_uddin_saba/"><span><i class="fab fa-instagram"></i></span></a>
+                <a target="_blank" href="https://www.linkedin.com/in/md-shahim-uddin-saba-915328113"><span><i class="fab fa-linkedin"></i></span></a>
+                <a target="_blank" href="https://www.flickr.com/people/shahim_uddin_saba"><span><span><i class="fab fa-flickr"></i></span></a>  
+                <a target="_blank" href="https://github.com/Shahim11?tab=repositories"><span><i class="fab fa-github"></i> </span></a>
+                                 
+              </div>
+              <hr>
+              <h3 class="pb-4">Personal Info</h3>
+              <div class="row">
+                <div class="col-md-6">
+                 <div class="personal-info-details">
+                  <h3>Name : <span>Md.Shahim Uddin Saba</span></h3>
+                  <h3>Age : <span>23 Years</span></h3>
+                  <h3>Nationality : <span>Bangladesh</span></h3>
+                  <h3>Languages : <span>Bangla, English</span></h3>
+                 </div>
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- education -->
+      <section id="education" class="education section-padding">
+        <div class="container">
+          <h2 class="text-center heading-title pb-4 ">Edu<span class="sub-heading">cation</span></h2>
+          <div class="row">
+            <div class="col-sm-12">
+              <!-- table -->
+              <table class="table table-danger table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Exam</th>
+                    <th scope="col">Institution</th>
+                    <th scope="col">Group</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">GPA</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>SSC</td>
+                    <td>Jashore Zilla School, Jashore</td>
+                    <td>Science</td>
+                    <td>2013</td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>HSC</td>
+                    <td>Govt. M. M. College, Jashore</td>
+                    <td>Science</td>
+                    <td>2015</td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>BSc</td>
+                    <td>Independent University Bangladesh</td>
+                    <td>CSE</td>
+                    <td>- - </td>
+                    <td>- - </td>
+                  </tr>               
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills -->
+      <section id="skills" class="skills section-padding ">
+        <div class="container">
+          <h2 class=" text-center pb-5 heading-title">My <span class="sub-heading">Skills</span></h2>
+          <div class="row">
+            <div class="col-md-6 programming-skills ">
+              <h2 class="text-center pb-4">Programming </h2>
+              <div class="progress-bar-part">
+                <h4>HTML</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%" 
+                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <h4>CSS</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 70%" 
+                    aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <h4>Bootstrap</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 65%" 
+                    aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <h4>Javascript</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" 
+                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div> 
+                <h4>C++</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" 
+                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>           
+                <h4>Python</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" 
+                    aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>                       
+              </div>
+            </div>
+            <div class="col-md-6 software-skills">
+              <h2 class="text-center pb-4">Software</h2>
+              <div class="progress-bar-part">
+                <h4>Adobe Photoshop</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%" 
+                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <h4>Illustrator</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 65%" 
+                    aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <h4>Adobe XD</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 65%" 
+                    aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <h4>Visual Studio</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 90%" 
+                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>               
+                <h4>Office 365</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 85%" 
+                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <h4>Android Studio</h4>
+                <div class="skills">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" 
+                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- project -->
+      <section id="project" class="project section-padding">
+        <div class="container">
+          <h2 class="text-center pb-5 heading-title">My Recent <span class="sub-heading">Project</span></h2>         
+          <div class="row g-4 ">
+            <div class="col-md-4 pb-3">
+              <div class="card shadow-lg mb-4 h-100">
+                <div class="card-img">
+                  <img src="./img/project1.jpg" class=" img-fluid" alt="project-image-1">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title py-2">BCD to 7-Segment Display Decoder</h5>
+                  <p class="card-text py-2 text-muted">BCD to 7-segment display decoder is a special decoder which can convert 
+                    binary coded decimals into another form which can be easily displayed through a 7-segment display.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-outline-success">See Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-3">
+              <div class="card shadow-lg mb-4 h-100">
+                <div class="card-img">
+                  <img src="./img/project2.jpg" class=" img-fluid" alt="project-image-2">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title py-2">SoccerBot</h5>
+                  <p class="card-text py-2 text-muted">This is an auto & Remote controlled robot that play football & fight with other 
+                    robots for the ball.</p>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-outline-success">See Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-3">
+              <div class="card shadow-lg mb-4 h-100">
+                <div class="card-img">
+                  <img src="./img/project3.jpg" class=" img-fluid" alt="project-image-3">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title py-2">Robotic Arms</h5>
+                  <p class="card-text py-2 text-muted">This is a programmable robotic arm based on Arduino. It features digital servos 
+                    with high torque. You can control the robotic arm to grab the object from different directions through the 
+                    mobile phone app. </p>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-outline-success">See Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-3">
+              <div class="card shadow-lg mb-4 h-100">
+                <div class="card-img">
+                  <img src="./img/project4.jpg" class=" img-fluid" alt="project-image-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title py-2">Infrared Thermometer</h5>
+                  <p class="card-text py-2 text-muted">An infrared thermometer is a thermometer that infers temperature from a portion of 
+                    the thermal radiation sometimes called black-body radiation emitted by the object being measured.</p>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-outline-success">See Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-3">
+              <div class="card shadow-lg mb-4 h-100">
+                <div class="card-img">
+                  <img src="./img/project5.jpg" class=" img-fluid" alt="project-image-5">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title py-2">Student Performance Monitoring System </h5>
+                  <p class="card-text py-2 text-muted">Student performance monitoring system is a system that helps teachers to use 
+                    student performance data to continually evaluate the effectiveness of their teaching and make more informed 
+                    instructional decisions.</p>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-outline-success">See Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Photography -->
+      <section id="photography" class="photography section-padding">
+        <div class="container">
+          <h2 class="text-center pb-5 heading-title">My Recent <span class="sub-heading">Photography</span></h2>         
+          <div class="row  ">
+            <div class="col-md-4">
+              <div class="card shadow-lg mb-4">
+                <div class="card-img">
+                  <img src="./img/photography/photography1.jpg" class=" img-fluid" alt="photography-image-1">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography2.jpg" class=" img-fluid" alt="photography-image-2">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography3.jpg" class=" img-fluid" alt="photography-image-3">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography4.jpg" class=" img-fluid" alt="photography-image-4">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography5.jpg" class=" img-fluid" alt="photography-image-5">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography6.jpg" class=" img-fluid" alt="photography-image-6">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography7.jpg" class=" img-fluid" alt="photography-image-7">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography8.jpg" class=" img-fluid" alt="photography-image-8">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography9.jpg" class=" img-fluid" alt="photography-image-9">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography10.jpg" class=" img-fluid" alt="photography-image-10">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography11.jpg" class=" img-fluid" alt="photography-image-11">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography12.jpg" class=" img-fluid" alt="photography-image-12">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography13.jpg" class=" img-fluid" alt="photography-image-13">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography14.jpg" class=" img-fluid" alt="photography-image-14">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography15.jpg" class=" img-fluid" alt="photography-image-15">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card shadow-lg mb-4 ">
+                <div class="card-img">
+                  <img src="./img/photography/photography16.jpg" class=" img-fluid" alt="photography-image-16">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- quote-->
+      <section id="quote" class="quote section-padding">
+        <div class="container">
+          <figure class="text-center">
+            <div class="quote-icon pb-4">
+              <div class="icon pe-3">               
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-quote-right"></i>
+              </div>
+            </div>
+            <blockquote class="blockquote pb-1">
+              <h3>Don’t let someone else’s opinion of you become your reality.</h3>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Les Brown 
+              <!-- <cite title="Source Title">Source Title</cite> -->
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <!-- contact -->
+      <section id="contact" class="contact section-padding">
+        <div class="container">
+          <h2 class="text-center pb-5 heading-title">Contact <span class="sub-heading">Me</span></h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row ">
+                <div class="col-sm-12 ">
+                  <div class="card">
+                    <div class="card-body shadow-lg d-flex align-items-center justify-content-start">
+                      <div class="icon pe-3">
+                        <i class="fas fa-phone-alt"></i>
+                      </div>
+                      <div class="details">
+                        <h3>Phone Number</h3>
+                        <p class="card-text py-1 text-muted">01758687203</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 ">
+                  <div class="card">
+                    <div class="card-body shadow-lg d-flex align-items-center justify-content-start">
+                      <div class="icon pe-3">
+                        <i class="fas fa-envelope"></i>
+                      </div>
+                      <div class="details">
+                        <h3>Email</h3>
+                          <p class="card-text py-1 text-muted">1720586@iub.edu.bd 
+                            <br>shahim6872@gmail.com
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 ">
+                  <div class="card">
+                    <div class="card-body shadow-lg d-flex align-items-center justify-content-start">
+                      <div class="icon pe-3">
+                        <i class="fas fa-home"></i>
+                      </div>
+                      <div class="details">
+                        <h3>Address</h3>
+                          <p class="card-text py-1 text-muted">Flat-2A, House-943-A/3,
+                             <br>East Barandi Mollahpara,               
+                             <br>Jashore
+                          </p>                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <form class=" w-75" >
+                <div class="mb-4 star-sign">
+                  <label for="exampleFormControlInput1" class="form-label">Name <span>*</span>                                    
+                  </label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                </div>
+                <div class="mb-4 star-sign">
+                  <label for="exampleFormControlInput1" class="form-label">Email <span>*</span>
+                  </label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+                </div>
+                <div class="mb-4 star-sign">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message <span>*</span>
+                  </label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="6.5" 
+                        placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-success">Submit</button>
+              </form>
+            </div>           
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="footer py-4">
+      <div class="container">
+        <div class="row">
+          <div class="footer-text text-white text-center justify-content-between">
+            <span>&copy; 2021- Shahim Uddin Saba. All rights reserved.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fontasesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/c7368d056d.js" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  </body>
+</html>
