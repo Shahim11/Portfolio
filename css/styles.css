@@ -184,6 +184,7 @@ form textarea {
 }
 
 /* media queries */
+
 @media (max-width: 576px){
   .banner-title {
     margin-top: 3rem;
@@ -201,7 +202,7 @@ form textarea {
     padding-top: 2rem;
   }
   .project .card {
-    width: 25.8rem;
+    width: 25.8rem !important;
   } 
   .contact .card {
     width: 25.8rem !important;
@@ -213,6 +214,43 @@ form textarea {
     width: 25.8rem !important;
   }
 }
+
+@media screen and (max-width: 910px) and (min-width: 750px){
+  .project .card {
+    width: 13.8rem !important;
+  } 
+  .contact .card {
+    width: 18.8rem !important;
+  }
+  form input {
+    width: 20.8rem !important;
+  }
+  form textarea {
+    width: 20.8rem !important;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 911px){
+  .project .card {
+    width: 13.8rem !important;
+  } 
+  .contact .card {
+    width: 18.8rem !important;
+  }
+  form input {
+    width: 20.8rem !important;
+  }
+  form textarea {
+    width: 20.8rem !important;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .project .card {
+    width: 25.8rem !important;
+  } 
+}
+
 
 /* footer */
 .footer {
